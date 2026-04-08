@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShopEasy 🛍️ | Online Store</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+</head>
+<body>
+  
+  <header class="header">
+    <div class="logo">ShopEasy</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#mens">Men</a></li>
+        <li><a href="#womens">Women</a></li>
+        <li><a href="#kids">Kids</a></li>
+        <li><a href="#cart">Cart</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section id="home" class="hero-section">
+    <div class="hero-content">
+      <h1>Welcome to ShopEasy 🛒</h1>
+      <p>Find the best deals on Men’s, Women’s, and Kids’ collections!</p>
+      <a href="#products" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- 🛍️ Products Section -->
+  <main>
+    <section id="products">
+      <h1>Our Products</h1>
+      <div class="product-grid">
+        <article class="product">
+          <img src="product.png" alt="Product 1">
+          <h3>Product 1</h3>
+          <p>Price: ₹1069</p>
+          <button>Add to Cart</button>
+        </article>
+
+        <article class="product">
+          <img src="product2.png" alt="Product 2">
+          <h3>Product 2</h3>
+          <p>Price: ₹669</p>
+          <button>Add to Cart</button>
+        </article>
+
+        <article class="product">
+          <img src="product3.png" alt="Product 3">
+          <h3>Product 3</h3>
+          <p>Price: ₹700</p>
+          <button>Add to Cart</button>
+        </article>
+
+        <article class="product">
+          <img src="product4.png" alt="Product 4">
+          <h3>Product 4</h3>
+          <p>Price: ₹1200</p>
+          <button>Add to Cart</button>
+        </article>
+      </div>
+    </section>
+
+    <!-- 👔 Men’s Section -->
+    <section id="mens">
+      <h1>Men’s Collection 👔</h1>
+      <div class="product-grid">
+        <article class="product">
+          <img src="shirt1.png" alt="Classic White Shirt">
+          <h3>Classic White Shirt</h3>
+          <p>Price: ₹699</p>
+          <button>Add to Cart</button>
+        </article>
+
+        <article class="product">
+          <img src="shirt2.png" alt="Denim Casual Shirt">
+          <h3>Denim Casual Shirt</h3>
+          <p>Price: ₹799</p>
+          <button>Add to Cart</button>
+        </article>
+
+        <article class="product">
+          <img src="shirt3.png" alt="Checked Cotton Shirt">
+          <h3>Checked Cotton Shirt</h3>
+          <p>Price: ₹1299</p>
+          <button>Add to Cart</button>
+        </article>
+
+        <article class="product">
+          <img src="shirt4.png" alt="Formal Blue Shirt">
+          <h3>Formal Blue Shirt</h3>
+          <p>Price: ₹599</p>
+          <button>Add to Cart</button>
+        </article>
+      </div>
+    </section>
+
+    <!-- 👗 Women’s Section -->
+    <section id="womens">
+      <h1>Women’s Collection 👗</h1>
+      <div class="product-grid">
+        <article class="product">
+          <img src="dress1.png" alt="Floral Summer Dress">
+          <h3>Floral Summer Dress</h3>
+          <p>Price: ₹999</p>
+          <button>Add to Cart</button>
+        </article>
+
+        <article class="product">
+          <img src="dress2.png" alt="Casual Top">
+          <h3>Casual Top</h3>
+          <p>Price: ₹1599</p>
+          <button>Add to Cart</button>
+        </article>
+
+        <article class="product">
+          <img src="dress3.png" alt="Stylish Jeans">
+          <h3>Stylish Jeans</h3>
+          <p>Price: ₹1299</p>
+          <button>Add to Cart</button>
+        </article>
+
+        <article class="product">
+          <img src="dress4.png" alt="Ethnic Kurti">
+          <h3>Ethnic Kurti</h3>
+          <p>Price: ₹899</p>
+          <button>Add to Cart</button>
+        </article>
+      </div>
+    </section>
+
+    <!-- 🧒 Kids Section -->
+    <section id="kids">
+      <h1>Kids Collection 🧒</h1>
+      <p class="section-desc">Fun, colorful, and comfy clothes for your little ones!</p>
+      <div class="product-grid">
+        <article class="product">
+          <img src="child1.png" alt="Cartoon T-shirt">
+          <h3>Cartoon T-shirt</h3>
+          <p>Price: ₹499</p>
+          <button>Add to Cart</button>
+        </article>
+
+        <article class="product">
+          <img src="child2M.png" alt="Denim Shorts">
+          <h3>Denim Shorts</h3>
+          <p>Price: ₹599</p>
+          <button>Add to Cart</button>
+        </article>
+
+        <article class="product">
+          <img src="child3.png" alt="Colorful Hoodie">
+          <h3>Colorful Hoodie</h3>
+          <p>Price: ₹799</p>
+          <button>Add to Cart</button>
+        </article>
+
+        <article class="product">
+          <img src="child4.png" alt="Cute Dress">
+          <h3>Cute Dress</h3>
+          <p>Price: ₹899</p>
+          <button>Add to Cart</button>
+        </article>
+      </div>
+    </section>
+
+    <!-- 🛒 Cart Section -->
+    <section id="cart">
+      <h1>Your Cart 🛒</h1>
+      <div class="cart-container">
+        <div class="cart-item">
+          <img src="shirt1.png" alt="Classic White Shirt" />
+          <div class="cart-info">
+            <h3>Classic White Shirt</h3>
+            <p>Price: ₹699</p>
+            <label>Quantity:</label>
+            <input type="number" value="1" min="1" />
+          </div>
+          <button class="remove-btn">Remove</button>
+        </div>
+
+        <div class="cart-item">
+          <img src="dress1.png" alt="Floral Summer Dress" />
+          <div class="cart-info">
+            <h3>Floral Summer Dress</h3>
+            <p>Price: ₹999</p>
+            <label>Quantity:</label>
+            <input type="number" value="1" min="1" />
+          </div>
+          <button class="remove-btn">Remove</button>
+        </div>
+      </div>
+      <!-- 📱 Phone QR Payment Popup -->
+<div id="paymentModal" class="payment-modal">
+
+  <div class="payment-box">
+    <span class="close-payment">&times;</span>
+
+    <h2>Scan to Pay 📱</h2>
+    <p>Scan this QR code using your phone</p>
+
+    <img src="payment1.jpeg" alt="Phone Payment QR" class="qr-image">
+
+    <button id="confirmPayment">Payment Done</button>
+
+  </div>
+
+</div>
+
+      <div class="cart-summary">
+        <h2>Cart Summary</h2>
+        <p>Total Items: <span id="total-items">2</span></p>
+        <p>Total Price: <span id="total-price">₹1698</span></p>
+        <button class="checkout-btn">Proceed to Checkout</button>
+      </div>
+    </section>
+
+    <!-- 📞 Contact Section -->
+    <section id="contact">
+      <div class="contact-container">
+        <div class="contact-info">
+          <h1>Contact Us 📩</h1>
+          <p>We’d love to hear from you! Whether you have a question, feedback, or partnership ideas — reach out to us.</p>
+          
+          <div class="contact-details">
+            <p><span>📍</span> 023 Pamuru Prakasama District, Andra Pradesh, India</p>
+            <p><span>📞</span> +91 9391894927</p>
+            <p><span>✉️</span> support@shopeasy.com</p>
+          </div>
+        </div>
+
+        <form id="contactForm" class="contact-form">
+          <h2>Send a Message</h2>
+          <input type="text" id="name" placeholder="Your Name" required />
+          <input type="email" id="email" placeholder="Your Email" required />
+          <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+          <p id="formMessage"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- 🌐 Footer -->
+  <footer>
+    <p>&copy; 2026 ShopEasy. All rights reserved.</p>
+  </footer>
+
+  <!-- ✅ Contact Form Validation Script -->
+  <script>
+  // 🌟 Contact Form Validation
+  document.addEventListener("DOMContentLoaded", () => {
+    const form = document.getElementById("contactForm");
+    const name = document.getElementById("name");
+    const email = document.getElementById("email");
+    const message = document.getElementById("message");
+    const formMessage = document.getElementById("formMessage");
+
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+
+      formMessage.textContent = "";
+      formMessage.style.color = "white";
+
+      // Empty field validation
+      if (!name.value.trim() || !email.value.trim() || !message.value.trim()) {
+        formMessage.textContent = "⚠️ Please fill in all fields.";
+        formMessage.style.color = "#ffcc00";
+        return;
+      }
+
+      // Email validation pattern
+      const emailPattern = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;
+      if (!emailPattern.test(email.value)) {
+        formMessage.textContent = "❌ Please enter a valid email address.";
+        formMessage.style.color = "#ff4d4d";
+        return;
+      }
+
+      // Success feedback
+      formMessage.textContent = "✅ Message sent successfully!";
+      formMessage.style.color = "#00ff7f";
+
+      form.reset();
+
+      setTimeout(() => {
+        formMessage.textContent = "";
+      }, 3000);
+    });
+  });
+  document.addEventListener("DOMContentLoaded", function () {
+
+let cart = [];
+
+const cartContainer = document.querySelector(".cart-container");
+const totalItems = document.getElementById("total-items");
+const totalPrice = document.getElementById("total-price");
+
+/* ADD TO CART */
+
+document.querySelectorAll(".product button").forEach(button => {
+
+button.addEventListener("click", () => {
+
+const product = button.parentElement;
+
+const name = product.querySelector("h3").innerText;
+const priceText = product.querySelector("p").innerText;
+const price = parseInt(priceText.replace("Price: ₹",""));
+const image = product.querySelector("img").src;
+
+addToCart(name,price,image);
+
+});
+
+});
+
+
+function addToCart(name,price,image){
+
+let existing = cart.find(item => item.name === name);
+
+if(existing){
+existing.quantity++;
+}else{
+cart.push({name,price,image,quantity:1});
+}
+
+renderCart();
+
+}
+
+
+/* RENDER CART */
+
+function renderCart(){
+
+cartContainer.innerHTML = "";
+
+let items = 0;
+let total = 0;
+
+cart.forEach((item,index)=>{
+
+items += item.quantity;
+total += item.price * item.quantity;
+
+let div = document.createElement("div");
+div.classList.add("cart-item");
+
+div.innerHTML = `
+
+<img src="${item.image}" width="70">
+
+<div class="cart-info">
+<h3>${item.name}</h3>
+<p>Price: ₹${item.price}</p>
+
+<label>Quantity:</label>
+<input type="number" min="1" value="${item.quantity}" data-index="${index}" class="qty">
+
+</div>
+
+<button class="remove-btn" data-index="${index}">Remove</button>
+
+`;
+
+cartContainer.appendChild(div);
+
+});
+
+totalItems.innerText = items;
+totalPrice.innerText = "₹" + total;
+
+addEvents();
+
+}
+
+
+/* REMOVE ITEM */
+
+function addEvents(){
+
+document.querySelectorAll(".remove-btn").forEach(btn => {
+
+btn.addEventListener("click", function(){
+
+const index = this.dataset.index;
+
+cart.splice(index,1);
+
+renderCart();
+
+});
+
+});
+
+
+/* UPDATE QUANTITY */
+
+document.querySelectorAll(".qty").forEach(input => {
+
+input.addEventListener("change", function(){
+
+const index = this.dataset.index;
+
+cart[index].quantity = parseInt(this.value);
+
+renderCart();
+
+});
+
+});
+
+}
+});
+const checkoutBtn = document.querySelector(".checkout-btn");
+const paymentModal = document.getElementById("paymentModal");
+const closePayment = document.querySelector(".close-payment");
+const confirmPayment = document.getElementById("confirmPayment");
+
+checkoutBtn.addEventListener("click", () => {
+paymentModal.style.display = "flex";
+});
+
+closePayment.addEventListener("click", () => {
+paymentModal.style.display = "none";
+});
+
+confirmPayment.addEventListener("click", () => {
+alert("✅ Payment Successful!");
+paymentModal.style.display = "none";
+});
+  </script>
+</body>
+</html>
